@@ -1,0 +1,350 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #fff url('../imagens/fundo.png') repeat-x;
+
+
+
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+#container {
+	width: 750px;
+	margin: 0 auto;
+	
+	
+	
+	height: 600px;
+}
+#topo {
+     background: url('../imagens/detalhe-topo.png') no-repeat right;
+	
+	height: 200px;
+
+
+}
+
+#logo {
+	
+	padding-top: 40px;
+}
+
+
+	
+
+.logo {
+
+	width: 152px;
+	height: 66px;
+	text-indent: -3000px;
+	background: url('../imagens/logo.png') no-repeat;
+}
+
+
+
+#topo ul {
+	background: #b10333;
+	margin-top: 30px;
+	float: left;
+	
+
+}
+
+#topo ul li {
+	float: left;
+	
+
+
+}
+
+
+#menu a {
+	
+	color: white;
+	text-decoration: none;
+	font-size: 0.9em;
+	display: block;
+	padding: 0.5em 1.5em;
+	line-height: 2.1em;
+	background: url('../imagens/divisor.png') repeat-y;
+}
+
+#menu a:hover {
+	background: navajowhite;
+	color: black;
+}
+
+#topo ul .primeiro a {
+	background-image: none;
+}
+
+
+body.home #menu a#home,
+body.brasil #menu a#brasil,
+body.internacional #menu a#internacional,
+body.economia #menu a#economia,
+body.saude #menu a#saude,
+body.ciencia #menu a#ciencia,
+body.fotos #menu a#fotos
+ {
+	background: navajowhite;
+	color: black;
+
+}
+
+#lateral {
+	background: yellow;
+	float: left;
+	width: 180px;
+
+
+	
+	background: #fafafa;
+	margin: 5px 0;
+	
+
+}
+#lateral h3 {
+	padding: 5px 0  5px 10px;
+}
+
+#conteudo-principal {
+	
+	float: right;
+	/*border: 1px green solid;*/
+	
+	/*margin: 30px 300px 0 5px;*/
+	padding: 5px;
+	width: 250px;
+	color: black;
+
+	
+}
+
+
+#conteudo-secundario {
+	float: right;
+	width: 250px;
+	margin-left: 10px;
+	padding: 5px;
+}
+
+
+#conteudo {
+	margin-top: 40px;
+	width: 750px;
+	/*border: 1px solid red;*/
+
+	
+
+	
+	float: right;
+}
+
+
+#container-rodape {
+	background: #294c71;
+	padding: 20px;
+	text-align: center;
+	
+}
+
+#rodape {
+	width: 750px;
+	margin: 0 auto;
+	color: white;
+	
+}
+
+#conteudo h3 {
+	background: #294c71;
+	color: #fff;
+	font-size: 1.3em;
+	margin-bottom: 30px;
+	
+}
+#conteudo #lateral h3 {
+	margin-bottom: 10px;
+}
+#conteudo-principal img,
+#conteudo-secundario img {
+	width: 100%;
+	border: 1px solid #294c71;
+}
+
+
+
+#lateral, #conteudo-secundario, #conteudo-principal{
+	/*background: #fafafa;*/
+	background: #fff;
+}
+
+.brasil #conteudo-principal,
+.ciencia #conteudo-principal,
+.economia #conteudo-principal,
+.internacional #conteudo-principal,
+.saude #conteudo-principal {
+	width: 500px;
+	/*margin-top: 30px;*/
+
+}
+#lateral a {
+	display: block;
+	margin: 5px;
+	font-size: 0.9em;
+	text-decoration: none;
+	color: black;
+}
+
+#lateral a:hover {
+	background: url('../imagens/marcador.png') no-repeat top left;
+	padding-left: 25px;
+	font-size: 1.2em;
+
+
+	color: papayawhip;
+}
+.caixa {
+	
+
+	float: left;
+	width: 180px;
+	margin-top: 40px;
+	padding: 5px;
+
+
+	
+	background: #fff;
+	
+
+}
+.caixa input {
+	width: 75%;
+
+}
+ #enviar {
+ 	background: #b10333;
+ 	margin-top: 5px;
+ 	width: 65%;
+ 	height: 1.8em;
+
+ }
+.caixa h3 {
+	width: 80%;
+	
+}
+#conteudo h4 {
+	background:#b10333 ;
+	color: whitesmoke;
+	width: 101%;
+	
+	font-size: 1em;
+}
+#conteudo-principal a,
+#conteudo-secundario a {
+	text-decoration: none;
+	color:#b10333 ;
+	font-weight: bold;
+}
+
+#conteudo-principal ul img,
+#conteudo-secundario ul img {
+	width: 80px;
+	float: left;
+	text-align: center;
+
+}
+/*conteudo de baixo da página*/
+.baixo {
+	font-size: 0.7em;
+	padding: 3px;
+	
+	
+
+}
+.baixo h2 {
+	color: skyblue;
+	padding-left: 3px;
+	font-size: 1.3em;
+	padding: 5px;
+	margin-left: 80px;
+	margin-bottom: -20px;
+	
+
+	
+
+}
+.baixo p {
+	color: black;
+	padding: 10px;
+} 
+
+/*.baixo li a:hover {
+	background: red;
+}*/
+#hover a:hover {
+	background: #ccc;
+	color: white;
+}
+.baixo li:hover{
+	background: #ccc;
+	
+
+
+}
+
+/*.baixo ul img {
+	width: 50px;
+}*/
+	
+.baixo li {
+	float: left;
+}
+
+
+.baixo-left {
+	font-size: 0.7em;
+	padding: 3px;
+}
+
+.baixo-left h2 {
+	color: skyblue;
+	padding-left: 3px;
+	font-size: 1.3em;
+	padding: 5px;
+	margin-left: 80px;
+	margin-bottom: -20px;
+	
+
+	
+
+}
+.baixo-left p {
+	color: black;
+	padding: 10px;
+} 
+  
+
+.baixo-left li:hover {
+	background: #ccc;
+}
+
+
+.baixo-left li {
+	float: left;
+}
+
+
+
+
+
+
+	
